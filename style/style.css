@@ -1,0 +1,66 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+
+nav ul{
+    display: flex;
+
+}
+.navbar li{
+    list-style: none;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #424242;
+    padding-right: 30px ;
+    font-size: 1.125rem;
+    font-weight: 500;
+
+}
+
+.navbar-heading{
+    color:  #131313;
+    font-size: 2.8125rem;
+    font-weight: 700;
+}
+
+
+/* banner style */ 
+
+.banner-content{
+    max-width: 53.875rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-heading{
+    color: #131313;
+font-size: 4rem;
+font-weight: 700;
+}
+
+.primary-btn{
+    color: white;
+    padding: 1.31rem 1.51rem;
+    background-color: #FF900E;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 3rem ;
+    margin-top: 3.31rem;
+
+    border-style: none;
+
+}
